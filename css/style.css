@@ -317,6 +317,54 @@ section h2{
     background-position: center;
 }
 
+.termez-header{
+    background: url(../img/termez/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.namangan-header{
+    background: url(../img/namangan/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.karshi-header{
+    background: url(../img/karshi/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.kokand-header{
+    background: url(../img/kokand/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.andijan-header{
+    background: url(../img/andijan/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.fergana-header{
+    background: url(../img/fergana/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
 main > .container > .row > h2{
     margin: 1rem 0;
     text-align: center;
@@ -340,3 +388,9 @@ main > .container > .row > .img-fluid{
     margin: 1rem auto;
     border-radius: 1rem;
 }
+
+@media (min-width: 576px) {
+    .header-cities{
+        height: 70vh;
+    }
+ }
